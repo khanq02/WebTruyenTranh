@@ -1,0 +1,378 @@
+/* body{
+    background-color: blue;
+} */
+
+*{
+    /* padding: 0;
+    margin: 0; */
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* phân thu/phong to trang */
+
+
+
+
+
+
+
+
+/* phân code */
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+
+/* phần header  */
+
+.header{
+    
+    width: 100%;
+    height: 89px;
+    /* margin-top: 10px; */
+    /* background-color: aqua; */
+    flex-direction: row;
+    background: url(https://hinhanhdephd.com/wp-content/uploads/2020/07/hinh-nen-galaxy-wallpaper-fullhd-dep-nhat-1.jpg);
+   
+}
+
+.headone{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    height: 60%;
+    align-items: center;
+    
+
+}
+
+.headone input{
+    width: 50%;
+    height: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* .headone .user a{ 
+    font-size: 20px;
+    
+    color: white;
+} */
+/* li{
+    list-style-type: none;
+} */
+.header .ten{
+    list-style-type: none;
+    width:20%;
+    background: url(//st.nettruyenon.com/data/logos/logo-nettruyen.png);
+    
+}
+/* .header .lamp{
+    background-color: yellow;
+} */
+.header .user{
+    margin-left: 5%;
+    position: relative;
+}
+
+.header .headone .lamp{
+    
+   font-size: 25px;
+    color: white;
+}
+/* phân giao dien sáng/tôi  */
+.dark-mode {
+    background-color: black;
+    z-index: 50;
+    color: white;
+ 
+    
+   
+  }
+
+/* ///////////////////////////// */
+/* phân chat/thong bao */
+
+.header .headone .testchat {
+    position:relative; 
+    color: white;
+    font-size: 25px;
+}
+/* .header .headone .testchat:hover .chat-thongbao{
+   
+    display: block;
+ 
+ 
+} */
+
+
+.chat-thongbao {
+    z-index: 1;
+    position: absolute;
+    /* margin-top: 350px; */
+    display: none;
+    width: 300px;
+    height: 340px;
+    margin-left:700px ;
+    margin-top: -35px;
+   
+    /* border: 1px solid black; */
+
+}
+.chat-thongbao .chat55{
+    height: 9%;
+    width: 100%; color: blue;
+   font-size: 15px; 
+   background-color: white;
+       text-align: center;
+       align-items: center;
+       padding-top:8px;
+
+}
+.chat-thongbao .chat55 hp{
+
+   /* margin-left: 40%;
+   margin-bottom: 20%; */
+   /* margin: 40%;
+   margin-top:20px; */
+   
+}
+
+
+.chat-thongbao .traloi{
+    height: 90%;
+    width: 100%;
+}
+.chat-thongbao .traloi ul{
+    height: 100%;
+}
+.chat-thongbao .traloi ul li {
+    height: 18%;
+    display:flex ;
+    background-color: rgb(204, 202, 202);
+    margin:1px ;
+    padding: 4px;
+    color: black;
+}
+
+.chat-thongbao .traloi ul li img{
+    height: 80%;
+    width: 20%;
+    padding: 4px;
+    
+}
+/* .chat-thongbao .traloi ul li pho{
+    height: 80%;
+    width: 80%;   
+} */
+
+.chat-thongbao .traloi ul li p1{
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.chat-thongbao .traloi ul li a{
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.chat-thongbao .traloi ul li pk{
+    font-size: 11px;
+} 
+
+.chat-thongbao .traloi ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+/* .chat-thongbao .traloi ul li a:hover{
+    
+    color: white;
+} */
+
+
+/* //////////////////// */
+.headone .user .from-user{
+    background-color: aliceblue;
+    position: absolute;
+    transition: all 0.9s;
+    transform: scaleY(0.0);
+    width: 140px;
+    margin-left: 50px;
+    text-decoration: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.from-user li a{
+    font-size: 15px;
+    color: black;
+}
+
+.headone .user:hover .from-user{
+    transform: scaleY(1.0);
+
+}
+
+
+
+.headtwo{
+    width: 100%;
+    height: 45%;
+    z-index: -1;
+    background-color: rgb(199, 199, 199);
+}
+
+.headtwo-btn{
+    width: 80%;
+    margin: 0 auto;
+    /* height: 100%; */
+}
+
+.headtwo-btn ul {
+    display: flex;
+    /* height: 100%; */
+
+}
+.headtwo-btn ul li {
+    
+    width: 9%;text-align: center;
+    padding: 10px;
+    height: 20px; 
+    position: relative;
+
+}
+.headtwo-btn ul li a{
+    color: black;
+    font-size: 15px;
+    
+    
+}
+
+.headtwo-btn ul li ul{
+    position: absolute;
+    transition: all 0.4s;
+    transform-origin:top;
+    transform: scaleY(0.0);
+}
+
+.headtwo .headtwo-btn ul li:hover{
+    background-color: white;
+}
+.headtwo .headtwo-btn ul li a:hover{
+    color: purple;
+}
+
+.headtwo-btn ul li:hover ul{
+    transform: scaleY(1.0);
+}
+
+/* from xep hang */
+.headtwo-btn ul li ul .xephang li:hover{
+    background-color: rgb(247, 247, 247);
+ 
+}
+.headtwo-btn ul li ul .theloai li:hover{
+    background-color: rgb(247, 247, 247);
+ 
+}
+.headtwo-btn ul li ul .xephang li a:hover{
+   
+    color:red;
+}
+.headtwo-btn ul li ul .theloai li a:hover{
+   
+    color:red;
+}
+
+
+/* phân the loai */
+
+.from-theloai{
+    width: 500px;
+    z-index: 1;
+    background-color:aliceblue;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* border-bottom: 1px solid black; */
+}
+.from-theloai .theloai{
+    width: 25%;
+    border-radius: 10px;    
+}
+.from-theloai .theloai li {
+    
+    width: 82%;
+    border-radius: 10px;
+
+}
+
+.from-theloai .theloai .theloai-a{
+    color: red;
+    font-weight: 700;
+}
+
+.from-xephang{  
+    z-index: 1;
+    display: flex;
+    margin-top: 10px;
+    width: 280px;
+    /* height: 200px; */
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.xephang{
+    /* margin-right: 10px; */
+    /* background-color: aliceblue; */
+   
+} 
+.from-xephang .xephang li{
+    /* padding: 10px; */
+    list-style-type: none;
+    width: 120px;
+    border-radius: 10px;
+
+}
+
+
+
+
+.header .headone .lamp{
+    position: relative;
+}
+.header .headone .lamp .body:active {
+    background-color: black;
+   
+}
+/* .test{
+    background-color: aqua;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+} */
+
+/* .headone input{
+    position: relative;
+}
+
+.headone button{
+    position: absolute;
+    margin-left:740px;
+} */
+
+
+/* phan view */
+
+
+
+
+
+
+.testttt{
+    background-color: aqua;
+    width: 800px;
+    height: 3000px;
+}
